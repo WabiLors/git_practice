@@ -1,0 +1,49 @@
+.nav-bar {
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    height: 50px;
+    border: 1px solid blue;
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.nav-bar ul {
+    display: flex;
+    justify-content: space-between;
+    width: 50vh;
+}
+.nav-bar .logo {
+    height: 2em;
+    width: 2em;
+}
+.page-intro {
+    height: 500px;
+    width: 100%;
+    background-image: url(/images/newyork.jpg);
+}
+.nav-bar li {
+    list-style: none;
+    border: 3px solid white;
+    border-radius: 10%;
+    padding: 3px;
+}
+body {
+    color: white;
+    margin-left: 0px;
+    margin-right: 0px;
+    width: 100%;
+    height: 100%;
+    border: 1px solid red;
+    background-color: lightslategray;
+    overflow-x: hidden;
+}
+footer {
+    box-sizing: border-box;
+    height: 150px;
+    width: 100%;
+    margin: 100% 0px 0px 0px;
+    border: 1px solid green;
+}
